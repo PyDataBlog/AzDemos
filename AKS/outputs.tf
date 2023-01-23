@@ -34,5 +34,19 @@ output "kube_config" {
 }
 
 output "resource_group_name" {
-  value = azurerm_resource_group.rg.name
+  value = azurerm_kubernetes_cluster.k8s.resource_group_name
+}
+
+output "acr_name" {
+  value = azurerm_container_registry.acr.name
+}
+
+
+output "acr_login_server" {
+  value = azurerm_container_registry.acr.login_server
+}
+
+
+output "acr_password" {
+  value = azurerm_container_registry.acr.admin_password
 }
