@@ -35,3 +35,4 @@ AKS/main.destroy.tfplan
 AKS/.terraform.lock.hcl
 AKS/sp.sh
 AKS/sp.azcli
+AKS/config
