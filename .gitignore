@@ -36,3 +36,6 @@ AKS/.terraform.lock.hcl
 AKS/sp.sh
 AKS/sp.azcli
 AKS/config
+Azure SQL DB/.terraform.lock.hcl
+Azure SQL DB/terraform.tfvars
+**/terraform.tfvars

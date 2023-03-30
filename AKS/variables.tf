@@ -17,7 +17,7 @@ variable "resource_group_name" {
 }
 
 variable "resource_group_location" {
-  default     = "eastus"
+  default     = "northeurope"
   description = "Location of the resource group."
 }
 
@@ -26,5 +26,5 @@ variable "ssh_public_key" {
 }
 
 variable "kubernetes_version" {
-  default = "1.24.6"
+  default = "1.25.5"
 }
